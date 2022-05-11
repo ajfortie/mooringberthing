@@ -1,0 +1,112 @@
+{
+    "Surface Vessels":{
+        "T-AKE": {
+            "Vessel Class": "T-AKE",
+            "Displacement": 45528.0,
+            "Length Overall": 689.0,
+            "Breadth": 106.0,
+            "Draft": 31.8,
+            "CoG": 344.5,
+            "FQp": 172.25,
+            "RQp": 516.75,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        },
+        "DDG-1000": {
+            "Vessel Class": "DDG-1000",
+            "Displacement": 14062.0,
+            "Length Overall": 607.0,
+            "Breadth": 80.7,
+            "Draft": 28.6,
+            "CoG": 321.6,
+            "FQp": 151.75,
+            "RQp": 455.25,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        },
+        "DDG-51": {
+            "Vessel Class": "DDG-51",
+            "Displacement": 8276.0,
+            "Length Overall": 505.0,
+            "Breadth": 66.0,
+            "Draft": 33.6,
+            "CoG": 252.5,
+            "FQp": 126.25,
+            "RQp": 378.75,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        },
+        "CG-52": {
+            "Vessel Class": "CG-52",
+            "Displacement": 9470.0,
+            "Length Overall": 567.0,
+            "Breadth": 55.1,
+            "Draft": 34.1,
+            "CoG": 283.5,
+            "FQp": 141.75,
+            "RQp": 425.25,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        },
+        "LCS-2": {
+            "Vessel Class": "LCS-2",
+            "Displacement": 3138.0,
+            "Length Overall": 418.0,
+            "Breadth": 104.0,
+            "Draft": 14.2,
+            "CoG": 250.7,
+            "FQp": 104.5,
+            "RQp": 313.5,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        }
+    },
+    "Submarine Vessels": {
+        "SSGN-726": {
+            "Vessel Class": "SSGN-726",
+            "Displacement": 16871.0,
+            "Length Overall": 559.3,
+            "Breadth": 42.0,
+            "Draft": 37.9,
+            "CoG": 238.0,
+            "FQp": 84.0,
+            "RQp": 198.7,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        },
+        "SSN-774 BLK V": {
+            "Vessel Class": "SSN-774 BLK V",
+            "Displacement": 9105.0,
+            "Length Overall": 461.0,
+            "Breadth": 34.3,
+            "Draft": 31.5,
+            "CoG": 215.0,
+            "FQp": 84.0,
+            "RQp": 282.4,
+            "C_d": 1.0,
+            "Reference": "Ser 450/0261, \"Virginia Class Block I-V Facilities Planning Criteria\", 26 April 2019"
+        },
+        "SSN-774 BLK IV": {
+            "Vessel Class": "SSN-774 BLK IV",
+            "Displacement": 6958.0,
+            "Length Overall": 377.3,
+            "Breadth": 34.3,
+            "Draft": 33.5,
+            "CoG": 172.0,
+            "FQp": 84.0,
+            "RQp": 198.7,
+            "C_d": 1.0,
+            "Reference": "Ser 450/0261, \"Virginia Class Block I-V Facilities Planning Criteria\", 26 April 2019"
+        },
+        "SSN-668":{
+            "Vessel Class": "SSN-688",
+            "Displacement": 6132.0,
+            "Length Overall": 361.0,
+            "Breadth": 33.0,
+            "Draft": 33.2,
+            "CoG": 158.3,
+            "C_d": 1.0,
+            "Reference": "UFC 4-152-01, \"Design: Piers and Wharves\", 24 January 2017"
+        }
+    }
+}
