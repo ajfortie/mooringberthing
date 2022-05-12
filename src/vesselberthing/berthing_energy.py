@@ -9,7 +9,7 @@ from .functions import fndr_curves as fc
 from .functions import fndr_plot as plt
 from .functions import berthvel as bv
 
-def berthing_energy(vessels, berths, loadcases, fender_dict, output):
+def berthing_energy(vessels, berths, loadcases, fender_dict, cp_e_dict, output):
     """Determine berthing energies using UFC 4-152-01 based on guidance from
     PIANC 2002.  Output units are (kip, ft)"""
     # Initialize Dictionaries
@@ -75,7 +75,7 @@ def berthing_energy(vessels, berths, loadcases, fender_dict, output):
                         a = 0
                     case 'Corner Protection':
                         nfndr = 1
-                        a = 0
+                        a = cp_e_dict[key]
                     case 'Forward Quarter Point':
                         nfndr = 1
                         a = abs(CG-L/4)
