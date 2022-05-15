@@ -69,8 +69,8 @@ def ER_demand_curve(D_d,E_d,R_d,Dplt_max,Eplt_data,Rplt_data, cht_title='Fender 
             E_max = item
             D_max = D_arr[i]
             R_max = R_arr[i]
-    ax1.text(D_max,E_max,"{0:.3f} kip-ft".format(E_max[0]),backgroundcolor='white', zorder = 2)
-    ax2.text(D_max,R_max,"{0:.3f} kip".format(R_max[0]),backgroundcolor = 'white', zorder = 2)
+    ax1.text(D_max,E_max,"{0:.3f} kip-ft".format(E_max),backgroundcolor='white', zorder = 2)
+    ax2.text(D_max,R_max,"{0:.3f} kip".format(R_max),backgroundcolor = 'white', zorder = 2)
 
     fig.figure.set_tight_layout(True)
     fig.figure.set_dpi(300)
