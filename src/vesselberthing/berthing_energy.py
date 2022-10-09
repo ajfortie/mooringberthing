@@ -13,8 +13,14 @@ from .functions import berthvel as bv
 
 const_path = os.path.abspath(os.path.join(os.path.dirname(__file__),'.\\constants'))
 
+# Load Vessel Parameters 
 f = open(const_path + '\\vessels.json','r')
 vessel_library = json.load(f)
+f.close()
+
+# Load Fender Parameters
+f = open(const_path + '\\fenders.json','r')
+fender_library = json.load(f)
 f.close()
 
 def berthing_energy(vessels, berths, loadcases, fender_dict, cp_e_dict, output):
@@ -51,6 +57,11 @@ def berthing_energy(vessels, berths, loadcases, fender_dict, cp_e_dict, output):
             V = bv.velocity(M, bcond)   # Berthing Velocity
             Cc = berths[jtem][3]        # Configuration Factor
 
+            fender_type = fender_dict[loc_fndr_key][0]
+            # fender_grade = fender_dict[loc_fndr_key][1]
+            # E_rating = fender_library[fender_type][fender_grade]["E_rated"]
+            # R_rating = fender_library[fender_type][fender_grade]["R_rated"]
+            # D_rating = fender_library[fender_type][fender_grade]["D_rated"]
             fender_type = fender_dict[loc_fndr_key][0]
             E_rating = fender_dict[loc_fndr_key][1]
             R_rating = fender_dict[loc_fndr_key][2]

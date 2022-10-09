@@ -976,6 +976,145 @@
             "E_rated": 617.371,
             "R_rated": 255.833
         }
+    },
+    "Pneumatic Fenders": {
+        "500x1000 @ 49 kPa": {
+            "Height": 500,
+            "Length": 1000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 4.425,
+            "R_rated": 14.324
+        },
+        "600x1000 @ 49 kPa": {
+            "Height": 600,
+            "Length": 1000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 5.900,
+            "R_rated": 16.562
+        },
+        "700x1500 @ 49 kPa": {
+            "Height": 700,
+            "Length": 1500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 12.539,
+            "R_rated": 30.662
+        },
+        "1000x1500 @ 49 kPa": {
+            "Height": 1000,
+            "Length": 1500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 23.602,
+            "R_rated": 40.733
+        },
+        "1000x2000 @ 49 kPa": {
+            "Height": 1000,
+            "Length": 2000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 33.190,
+            "R_rated": 57.519
+        },
+        "1200x2000 @ 49 kPa": {
+            "Height": 1200,
+            "Length": 2000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 46.466,
+            "R_rated": 66.471
+        },
+        "1350x2500 @ 49 kPa": {
+            "Height": 1350,
+            "Length": 2500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 75.231,
+            "R_rated": 95.566
+        },
+        "1500x3000 @ 49 kPa": {
+            "Height": 1500,
+            "Length": 3000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 112.847,
+            "R_rated": 129.585
+        },
+        "1700x3000 @ 49 kPa": {
+            "Height": 1700,
+            "Length": 3000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 140.874,
+            "R_rated": 143.014
+        },
+        "2000x3500 @ 49 kPa": {
+            "Height": 2000,
+            "Length": 3500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 227.169,
+            "R_rated": 195.833
+        },
+        "2500x4000 @ 49 kPa": {
+            "Height": 2500,
+            "Length": 4000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 489.004,
+            "R_rated": 309.080
+        },
+        "2500x5500 @ 49 kPa": {
+            "Height": 2500,
+            "Length": 5500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 695.521,
+            "R_rated": 451.870
+        },
+        "3300x4500 @ 49 kPa": {
+            "Height": 3300,
+            "Length": 4500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 866.635,
+            "R_rated": 421.656
+        },
+        "3300x6500 @ 49 kPa": {
+            "Height": 3300,
+            "Length": 6500,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 1337.938,
+            "R_rated": 674.784
+        },
+        "3300x10600 @ 49 kPa": {
+            "Height": 3300,
+            "Length": 10600,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 2262.103,
+            "R_rated": 1176.563
+        },
+        "4500x9000 @ 49 kPa": {
+            "Height": 4500,
+            "Length": 9000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 3504.895,
+            "R_rated": 1286.230
+        },
+        "4500x12000 @ 49 kPa": {
+            "Height": 4500,
+            "Length": 12000,
+            "Initial_Pressure": "49 kPa",
+            "D_rated": 0.600,
+            "E_rated": 4774.239,
+            "R_rated": 1786.890
+        }
+
     }
 }
     
